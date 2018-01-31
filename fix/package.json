@@ -12,7 +12,15 @@
     "presets": [
       ["env", {
         "targets": {
-          "browsers": ["last 2 versions", "safari >= 7"]
+          "browsers": [
+            "last 2 Chrome versions",
+            "last 2 Firefox versions",
+            "last 2 Safari versions",
+            "last 2 Edge versions",
+            "ie 11",
+            "last 2 ChromeAndroid versions",
+            "last 2 iOS versions"
+          ]
         }
       }]
     ]
