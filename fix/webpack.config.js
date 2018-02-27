@@ -7,7 +7,7 @@ module.exports = {
         filename: "script.js"
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
