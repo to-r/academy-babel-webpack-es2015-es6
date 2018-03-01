@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode develop",
-    "start": "webpack --mode develop -w",
+    "build": "webpack --mode development",
+    "start": "webpack --mode development -w",
     "release": "webpack --mode production"
   },
   "babel": {
