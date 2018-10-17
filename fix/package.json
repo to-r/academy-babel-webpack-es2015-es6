@@ -10,32 +10,35 @@
   },
   "babel": {
     "presets": [
-      ["env", {
-        "targets": {
-          "browsers": [
-            "last 2 Chrome versions",
-            "last 2 Firefox versions",
-            "last 2 Safari versions",
-            "last 2 Edge versions",
-            "ie 11",
-            "last 2 ChromeAndroid versions",
-            "last 2 iOS versions"
-          ]
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 Chrome versions",
+              "last 2 Firefox versions",
+              "last 2 Safari versions",
+              "last 2 Edge versions",
+              "ie 11",
+              "last 2 ChromeAndroid versions",
+              "last 2 iOS versions"
+            ]
+          }
         }
-      }]
+      ]
     ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3"
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "@babel/polyfill": "^7.0.0"
   }
 }
